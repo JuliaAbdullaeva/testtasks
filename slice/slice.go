@@ -1,7 +1,7 @@
 package slice
 
 //На вход подаются два неупорядоченных слайса любой длины. Надо написать функцию, которая возвращает их пересечение
-func intersectionSlices(a, b []int) (intersectSlice []int) {
+func IntersectionSlices(a, b []int) (intersectSlice []int) {
 	mapIntersect := make(map[int]int)
 	for _, itemA := range a {
 		for _, itemB := range b {
